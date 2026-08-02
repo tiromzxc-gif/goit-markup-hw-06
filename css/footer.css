@@ -123,8 +123,7 @@
 
 .subscribe-box {
     display: flex;
-    flex-direction: column; 
-    width: 100%;
+    flex-direction: column;
     gap: 16px; 
     align-items: center;
 }
@@ -138,7 +137,9 @@
 } 
 
 @media (min-width: 768px) { 
-   
+    .subscribe-box {
+        align-items: start;
+        }
     .email-form {
         width: 264px;
     }
@@ -173,7 +174,7 @@
     .footer-part .container { 
         display: flex; 
         flex-direction: row; 
-        padding: 100px 0; 
+        padding: 100px 15px; 
         flex-wrap: nowrap; 
         row-gap: 0;
         column-gap: 0;
@@ -182,4 +183,7 @@
     margin-right: 120px;
 } 
 
-}
+.inst-links {
+    margin-right: 83px;
+
+}}
