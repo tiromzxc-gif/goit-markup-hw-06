@@ -110,7 +110,10 @@
     }
 } 
 
-@media (min-width: 1158px) {
+@media (min-width: 1158px) { 
+    .portfolio-section .container {
+        padding: 120px 15px;
+}
     .list-three {
         row-gap: 48px;
 }

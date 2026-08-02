@@ -88,6 +88,8 @@
  .list-two{
     flex-direction:row; 
     flex-wrap: wrap; 
+    row-gap:64px; 
+    column-gap: 24px;
     justify-content: center;
  } 
 
@@ -97,7 +99,7 @@
 @media(min-width:1158px) {
     .team-section .container {
             max-width: 1158px;
-            padding: 96px 15px;
+            padding: 120px 15px;
     }
     
     .list-two {

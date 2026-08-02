@@ -6,11 +6,20 @@
     color: #ffffff;
     background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        image-set(url("../images/hero-bg.jpg") 1x, url("../images/hero-bg2.jpg") 2x);
+        url("../images/hero-bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-} 
+}  
+
+@media(min-resolution:2dppx){
+.hero-main {
+        background-image:
+            linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url("../images/hero-bg@2x.jpg");
+    }
+
+}
 .hero-main .hero-tittle {
     text-align: center;
     font-weight: 700;
@@ -67,9 +76,9 @@
         } 
 } 
 
-@media(min-width:1168px) {
+@media(min-width:1158px) {
     .hero-main {
-            max-width: 1448px;
+            max-width: 1440px;
             padding: 188px 0;
         } 
     
