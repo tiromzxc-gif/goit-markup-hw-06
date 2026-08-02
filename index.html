@@ -48,56 +48,6 @@
           <button class="brg-menu"><svg class="brg-btn" width="17" height="15"><use href="./images/icons.svg#illustration-994"></use></svg></button>
         </div> 
       </div> 
-      <div id="menu-mobile-screen" class="menu-mobile-screen hide">
-        <button class="close-btn" type="button"><svg class="close-svg" width="8" height="8">
-            <use href="./images/icons.svg#illustration-996"></use>
-          </svg></button>
-        <ul class="menu-mobile-screen-menu">
-          <li><a class="current without-paddings" href="#">Studio</a></li>
-          <li><a class="without-paddings" href="#">Portfolio</a></li>
-          <li><a class="without-paddings" href="#">Contacts</a></li>
-        </ul>
-        <address class="contacts-mobile">
-          <ul class="contacts-mobile-list">
-            <li>
-              <a class="cont-items without-paddings" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-              <a class="cont-items without-paddings" href="tel:+110001111111">+11 (000) 111-11-11</a>
-            </li>
-          </ul>
-          <ul class="social-icon">
-            <li>
-              <a href="" class="social-linking">
-                <svg width="24" height="24">
-                  <use href="./images/icons.svg#illustration-4" />
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="" class="social-linking">
-                <svg width="24" height="24">
-                  <use href="./images/icons.svg#illustration-5" />
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="" class="social-linking">
-                <svg width="24" height="24">
-                  <use href="./images/icons.svg#illustration-6" />
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="" class="social-linking">
-                <svg width="24" height="24">
-                  <use href="./images/icons.svg#illustration-7" />
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </address> 
-      </div>
     </header>
     <main>
       <section id="hero" class="hero-main">
@@ -170,6 +120,7 @@
                 <img
                   class="img-team"
                   src="./images/team-1.jpg"
+                  srcset="./images/team-1.jpg 1x, ./images/team-1@2x.jpg 2x"
                   alt="Mark Guerrero"
                   width="264"
                 />
@@ -213,7 +164,8 @@
               <li class="team-blocks">
                 <img
                   class="img-team"
-                  src="./images/team-2.jpg"
+                  src="./images/team-2.jpg" 
+                  srcset="./images/team-2.jpg 1x, ./images/team-2@2x.jpg 2x"
                   alt="Tom Ford"
                   width="264"
                 />
@@ -258,6 +210,7 @@
                 <img
                   class="img-team"
                   src="./images/team-3.jpg"
+                  srcset="./images/team-3.jpg 1x, ./images/team-3@2x.jpg 2x"
                   alt="Camila Garcia"
                   width="264"
                 />
@@ -301,7 +254,8 @@
               <li class="team-blocks">
                 <img
                   class="img-team"
-                  src="./images/team-4.jpg"
+                  src="./images/team-4.jpg" 
+                  srcset="./images/team-4.jpg 1x, ./images/team-4@2x.jpg 2x"
                   alt="Daniel Wilson"
                   width="264"
                 />
@@ -356,7 +310,8 @@
                 <div class="overlay-section">
                   <img
                     class="img-port"
-                    src="./images/portfolio-1.jpg"
+                    src="./images/portfolio-1.jpg" 
+                    srcset="./images/portfolio-1.jpg 1x, ./images/portfolio-1@2x.jpg 2x"
                     alt="Banking App" 
                     width="288" 
                     height="239"
@@ -381,6 +336,7 @@
                   <img
                     class="img-port"
                     src="./images/portfolio-2.jpg"
+                    srcset="./images/portfolio-2.jpg 1x, ./images/portfolio-2@2x.jpg 2x"
                     alt="Cashless Payment" 
                     width="288"
                     height="239"
@@ -404,6 +360,7 @@
                   <img
                     class="img-port"
                     src="./images/portfolio-3.jpg"
+                    srcset="./images/portfolio-3.jpg 1x, ./images/portfolio-3@2x.jpg 2x"
                     alt="Meditation App"
                     width="288"
                     height="239"
@@ -426,7 +383,8 @@
                 <div class="overlay-section">
                   <img
                     class="img-port"
-                    src="./images/portfolio-4.jpg"
+                    src="./images/portfolio-4.jpg" 
+                    srcset="./images/portfolio-4.jpg 1x, ./images/portfolio-4@2x.jpg 2x"
                     alt="Taxi Service"
                     width="288"
                     height="239"
@@ -449,6 +407,7 @@
                   <img
                     class="img-port"
                     src="./images/portfolio-5.jpg"
+                    srcset="./images/portfolio-5.jpg 1x, ./images/portfolio-5@2x.jpg 2x"
                     alt="Screen Illustrations"
                     width="288"
                     height="239"
@@ -472,6 +431,7 @@
                   <img
                     class="img-port"
                     src="./images/portfolio-6.jpg"
+                    srcset="./images/portfolio-6.jpg 1x, ./images/portfolio-6@2x.jpg 2x"
                     alt="Online Courses" 
                     width="288"
                     height="239"
@@ -548,7 +508,57 @@
         </div>
         </div>
     </footer> 
-   
+
+    <div id="menu-mobile-screen" class="menu-mobile-screen">
+      <button class="close-btn" type="button"><svg class="close-svg" width="8" height="8">
+          <use href="./images/icons.svg#illustration-996"></use>
+        </svg></button>
+      <ul class="menu-mobile-screen-menu">
+        <li><a class="current without-paddings" href="#">Studio</a></li>
+        <li><a class="without-paddings" href="#">Portfolio</a></li>
+        <li><a class="without-paddings" href="#">Contacts</a></li>
+      </ul>
+      <address class="contacts-mobile">
+        <ul class="contacts-mobile-list">
+          <li>
+            <a class="cont-items without-paddings" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="cont-items without-paddings" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
+        <ul class="social-icon">
+          <li>
+            <a href="" class="social-linking">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#illustration-4" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="social-linking">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#illustration-5" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="social-linking">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#illustration-6" />
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="" class="social-linking">
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#illustration-7" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </address>
+    </div>
     <div id="modal" class="modal-fone" > 
       <div class="modal-cont">
         <button class="close-btn" type="button"><svg class="close-svg" width="8" height="8">

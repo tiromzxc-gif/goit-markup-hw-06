@@ -2,10 +2,6 @@
   display: none;
 } 
 
-.menu-mobile-screen.hide {
-  display: none;
-}
-
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
